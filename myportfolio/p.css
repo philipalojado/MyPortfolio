@@ -1,0 +1,92 @@
+body {
+    font-family: Garamond,sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color:  #26b5ce;
+    text-decoration: sans-serif;
+    font-weight: bold;
+  }
+  .row img {
+    width: 500px; 
+    height: 700px;
+  }
+  section {
+    padding: 100px;
+    color: #ccd7fa;
+    font-size: 50px
+  } 
+  section h2 {
+    font-size: 100px;
+    margin-bottom: 50px;
+    font-size: 150px;
+    color: #26b5ce;
+
+  }
+  
+  .background-image {
+    background-image: url('phi.jpg');
+    background-size: cover;
+    background-position: bottom right;
+
+  }
+  
+  .background-pattern {
+    background-image: url('8.jpg');
+    background-size: cover;
+    background-position: bottom right;
+  }
+  
+  .background-color { 
+    background-color: #1d1c1c;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    font-size: 50px
+  }
+  
+  form label {
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #1f1e1e;
+  }
+  
+  form input[type="submit"] {
+    background-color: #000000;
+    color: #dddbdb;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+  }
+  
